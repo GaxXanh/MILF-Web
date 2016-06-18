@@ -11,6 +11,10 @@ html {
   display: inline-block;
   width: 100px;
   height: 30px;
-  vertical-align: middle;
   line-height: 30px;
+}
+.menu span:hover {
+  background-color: #9CD08F;
+  color: #FFFFFF;
+  cursor: pointer;
 }
