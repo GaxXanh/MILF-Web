@@ -1,3 +1,15 @@
 html {
-  background: #f8f8ff;
+  background: #F8F8FF;
+}
+.menu {
+  background-color: #D5B0AC;
+  color: #402E2A;
+  font-weight: bold;
+}
+span {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  vertical-align: middle;
+  line-height: 30px;
 }
