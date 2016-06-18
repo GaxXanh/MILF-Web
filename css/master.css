@@ -1,5 +1,9 @@
+* {
+  box-sizing: border-box;
+}
 html {
   background: #F8F8FF;
+  font-family: "Comic Sans MS";
 }
 .menu {
   background-color: #D5B0AC;
@@ -7,7 +11,7 @@ html {
   font-weight: bold;
   text-align: center;
 }
-.menu span {
+span {
   display: inline-block;
   width: 100px;
   height: 30px;
@@ -17,4 +21,11 @@ html {
   background-color: #9CD08F;
   color: #FFFFFF;
   cursor: pointer;
+}
+.menu_vertical {
+  width: 100px;
+}
+.menu_vertical span {
+  display: block;
+  border-bottom: 1px solid white;
 }
